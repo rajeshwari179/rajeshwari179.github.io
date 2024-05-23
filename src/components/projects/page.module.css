@@ -1,0 +1,52 @@
+.project {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh;
+    height: 40vh;
+    width: 40vh;
+    background-color: rgb(164 202 205);
+    border-radius: 30px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the image horizontally */
+  justify-content: center; /* Center the image vertically */
+  flex-grow: 2;
+  height : 10vh;
+  width: 10vh; /* Make sure the top section takes the full width */
+}
+
+.top img {
+  border-radius: 10px;
+  max-width: 30vw;
+  max-height: 20vh; 
+  max-width: 100%;
+  max-height: 100% ;
+  aspect-ratio: 1/1;
+}
+
+
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%;
+  max-width: var(--max-width);
+  padding: 1rem 0;
+  height: 5vh;
+  border-top: 1px solid rgba(var(--card-border-rgb), 0.3);
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  
+}
