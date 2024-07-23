@@ -11,7 +11,7 @@ const Navbar = () => {
       <Navbarlink href="/" text="Home" path={pathname}/>
       <Navbarlink href="/about" text="Experience" path={pathname}/>
       <Navbarlink href="/project" text="Projects" path={pathname}/>
-      <Navbarlink href="/contact" text="Contact" path={pathname}/>
+      <Navbarlink href="/contact" text="Designs" path={pathname}/>
     
      </div>
   );

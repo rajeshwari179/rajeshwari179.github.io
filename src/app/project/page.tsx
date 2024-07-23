@@ -1,42 +1,49 @@
 import React from 'react';
-import styles from "../../components/projects/page.module.css"; 
-import Projects from "../../components/projects/page.jsx"; // Import your CSS module
+import styles from "../../components/Project.module.css"; 
+import { useRouter } from 'next/router';
+import Projects from "../../components/Project.jsx"; // Import your CSS module
 import sift from "/src/sift.png";
 import graph from "/src/graph.jpg";
 import svd from "/src/svd.png";
 import modsim from "/src/modsim.png";
 import cda from "/src/cda.png";
 import particle from "/src/particle.jpeg";
+
 const Project = () => {
     const projects = [
         {
-            name: 'Project 1',
+            id: '1',
+            name: 'A GPU-Accelerated Fast Scale-Invariant Feature Transform',
             description: 'Description 1',
             image: sift,
         },
         {
-            name: 'Project 2',
+            id: '2',
+            name: 'Core Maintenance in Dynamic Graphs',
             description: 'Description 2',
             image: graph,
         },
-        ,
         {
-            name: 'Project 5',
+            id: '3',
+            name: 'Short Text Clustering with Contrastive learning and Data Augmentation',
             description: 'Description 5',
             image: cda,
         },
         {
-            name: 'Project 3',
+            id: '4',
+            name: 'Toy Particle Simulation through Shared Memory Programming',
             description: 'Description 3',
             image: particle,
         },
         {
-            name: 'Project 3',
+            id: '5',
+            name: 'Aircraft Modelling and Simulation',
             description: 'Description 3',
             image: modsim,
         },
         {
-            name: 'Project 4',
+            id: '6',
+            name: 'Generalizing Discriminant Analysis Using the Generalized Singular Value Decomposition',
             description: 'Description 4',
             image: svd,
         }

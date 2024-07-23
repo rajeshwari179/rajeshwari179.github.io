@@ -3,16 +3,18 @@ import Image from 'next/image';
 import styles from './Timeline.module.css';
 
 const TimelineEvent = ({ role, title, date, description, image, position }) => {
+  const bulletPoints = description.split('. ').map((point, index) => (
+    <li key={index}>{point}</li>
+  ));
+
   return (
     <div className={`${styles.container} ${position === 'left' ? styles.left : styles.right}`}>
       <Image src={image} alt={title} className={styles.Image} width={60} height={60} />
       <div className={styles.textBox}>
-        
         <h2>{role}</h2>
         <h3>{title}</h3>
         <small>{date}</small>
-        <p>{description}</p>
-        
+        <ul className={styles.bulletPoints}>{bulletPoints}</ul>
       </div>
     </div>
   );
@@ -24,7 +26,7 @@ const Timeline = ({ events }) => {
       {events.map((event, index) => (
         <TimelineEvent 
           key={index}
-          role = {event.role}
+          role={event.role}
           title={event.title}
           date={event.date}
           description={event.description}
@@ -36,8 +38,4 @@ const Timeline = ({ events }) => {
   );
 };
 
-
-
 export default Timeline;
-
-

@@ -36,7 +36,66 @@
 }
 .gallery{
   display: flex;
+  flex-wrap: wrap;
 
 
   
 }
+
+/* page.module.css */
+
+.project {
+  cursor: pointer;
+  display: flex;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.top {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.right {
+  padding: 10px;
+}
+
+.projectDetails {
+  padding: 20px;
+}
+
+.projectImage {
+  margin-top: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: column;
+}
+
+/* @media (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+
+  .project .top {
+    width: 100%;
+    height: auto;
+  }
+
+  .project .right {
+    width: 100%;
+  }
+} */

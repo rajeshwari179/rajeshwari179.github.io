@@ -6,11 +6,12 @@ import githubIcon from "/src/git.webp"; // Import your GitHub icon
 import linkedinIcon from "/src/linkedin.png"; // Import your LinkedIn icon
 import cvIcon from "/src/cv.png"; // Import your CV icon
 import gt from "/src/gt.png"; // Import your GT icon
+import gmail from "/src/gmail.png"; // Import your Gmail icon
 import iit from "/src/iit.png"; // Import your IIT icon
 const Page = () => {
   const skills = [
     "Python", "C/C++", "HTML", "CSS", "JavaScript", "React", "Node.js", 
-    "OpenCV", "CUDA", "OpenMP", "SQL", "MPI", "Git", "Matlab", 
+    "OpenCV", "CUDA", "OpenMP", "SQL", "MPI", "Git", "Matlab", "Docker",
     "Solidworks", "Ansys", "Pytorch", "Tensorflow", "Pandas", "NumPy"
   ]; // Define your skills here
 
@@ -26,13 +27,17 @@ const Page = () => {
             <a href="https://www.linkedin.com/in/rajeshwari-devaramani-b887891b6/" target="_blank" rel="noopener noreferrer">
               <Image src={linkedinIcon} alt="LinkedIn" width={65} height={65} />
             </a>
+            <a href="mailto:rajeshwarisd179@gmail.com" target="_blank" rel="noopener noreferrer">
+             <Image src={gmail} alt="Mail" width={65} height={65} />
+            </a>
             <a href="https://www.linkedin.com/in/rajeshwari-devaramani-b887891b6/" target="_blank" rel="noopener noreferrer">
               <Image src={cvIcon} alt="CV" width={65} height={65} />
             </a>
+           
           </div>
         </div>
         <div className={styles.right}>
-          <p>As the zephyr gently whispered through the ziggurat's corridors, a cacophony of razzle-dazzle and hullabaloo erupted among the inhabitants. Squizzles scurried about, their dinglehoppers clinking with each wobble of their gait, while flibbertigibbets fluttered overhead, leaving trails of zonked quokkas in their wake. Amidst the fandango of jibber-jabber and kerfuffle, the snizzle of pizzazz filled the air, blending with the zonk of wumpuses and the occasional fizzle of brouhahas. In this whimsical world of zephyrs and quibbles, every moment was a razzmatazz of zonked zephyrs and flibbertigibbets, a testament to the zany nature of the universe.</p>
+          <h2>I am currently a Master's student at the School of Computational Science and Engineering at Georgia Tech. My passion lies at the intersection of mathematics, statistical modeling, and computer science. The ability to automate tasks through the development of efficient computational algorithms is something I find incredibly fulfilling. I am particularly fascinated by the potential of deep learning and machine learning, especially when accelerated by GPUs</h2>
         </div>
       </div>
       <div className={styles.educationSection}>
