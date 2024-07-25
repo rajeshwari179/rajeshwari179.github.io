@@ -40,7 +40,7 @@ const events = [
     role: 'Computaional Mechanics Researcher',
     title: 'Indian Institute of Science',
     date: '2020 - 2021',
-    description: 'Further details about another significant event in the timeline.',
+    description: 'Worked in the lab of Mechanics and computations on designing meta-structures with quasi-zero dynamic stiffness for vibration isolation. Performed mathematical simulations on single-cell meta-structure',
     image: gt
   },
  
@@ -56,3 +56,6 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+// Worked in the lab of Mechanics and computations on designing meta-structures with quasi-zero dynamic stiffness for vibration isolation.
+// • Performed mathematical simulations on single-cell meta-structure
+// • Supervised Machine learning algorithms to classify the unit cells by changing different parameter values.
