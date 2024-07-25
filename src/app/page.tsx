@@ -30,14 +30,14 @@ const Page = () => {
             <a href="mailto:rajeshwarisd179@gmail.com" target="_blank" rel="noopener noreferrer">
              <Image src={gmail} alt="Mail" width={65} height={65} />
             </a>
-            <a href="https://www.linkedin.com/in/rajeshwari-devaramani-b887891b6/" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/19HsVQiV1W9MP3k8vTlcvW3PSUzZDbr1l/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <Image src={cvIcon} alt="CV" width={65} height={65} />
             </a>
            
           </div>
         </div>
         <div className={styles.right}>
-          <h2>I am currently a Master's student at the School of Computational Science and Engineering at Georgia Tech. My passion lies at the intersection of mathematics, statistical modeling, and computer science. The ability to automate tasks through the development of efficient computational algorithms is something I find incredibly fulfilling. I am particularly fascinated by the potential of deep learning and machine learning, especially when accelerated by GPUs</h2>
+          <h2>Hola! I am Rajeshwari Devaramani,currently a Master's student at the School of Computational Science and Engineering at Georgia Tech. My passion lies at the intersection of mathematics, statistical modeling, and computer science. The ability to automate tasks through the development of efficient computational algorithms is something I find incredibly fulfilling. I am particularly fascinated by the potential of deep learning and machine learning, especially when accelerated by GPUs. At present, I am engaged in research on local connectivity in neural networks and retinotopic mapping in the human brain, working on topographic deep artificial neural networks. I have a strong interest in computer vision, with a specific focus on 3D reconstruction and image processing utilizing advanced deep learning techniques. I enjoy writing efficient CUDA kernels to maximize the performance of computational tasks on GPUs.</h2>
         </div>
       </div>
       <div className={styles.educationSection}>

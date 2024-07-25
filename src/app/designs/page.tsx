@@ -24,6 +24,7 @@ const ModelsPage = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>My 3D Models</h1>
+      <h2 className={styles.subtitle}>From quirky abstract shapes to just random stuff, I’ve had a 3D-licious time designing these models and trying out new techniques! 🎨</h2>
       <div className={styles.gallery}>
         {images.map((image, index) => (
           <div key={index} className={styles.imageContainer}>
