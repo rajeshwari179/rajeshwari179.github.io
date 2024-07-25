@@ -3,8 +3,6 @@ import ProjectTemplate from '../../../components/ProjectTemplate';
 import gsvd from '../../../gsvd.png';
 import gsvd1 from '../../../gsvd1.png';
 import gsvd2 from '../../../gsvd2.png';
-import 'katex/dist/katex.min.css';
-import { BlockMath, InlineMath } from 'react-katex';
 
 const Project1Page = () => {
   const projects = [

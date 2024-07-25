@@ -6,8 +6,6 @@ import A3 from '../../../A3.png';
 import A4 from '../../../A4.png';
 import A5 from '../../../A5.png';
 
-import 'katex/dist/katex.min.css';
-import { BlockMath, InlineMath } from 'react-katex';
 
 const Project1Page = () => {
   const projects = [
