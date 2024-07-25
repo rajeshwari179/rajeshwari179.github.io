@@ -3,8 +3,6 @@ import ProjectTemplate from '../../../components/ProjectTemplate';
 import sccl1 from '../../../sccl1.png';
 import sccl2 from '../../../sccl2.png';
 import sccl3 from '../../../sccl3.png';
-import 'katex/dist/katex.min.css';
-import { BlockMath, InlineMath } from 'react-katex';
 
 const Project1Page = () => {
   const projects = [
@@ -48,7 +46,7 @@ Figure 1: Failure of K-means.
 improve unsupervised clustering. As illustrated in Figure 2, our model consists of three components.
 A neural network ψ(·) first maps the input data to the representation space, which is then followed
 by two different heads g(·) and f (·) where the contrastive loss and the clustering loss are applied,
-respectively. Our data consists of both the original and the augmented data. Specifically, for a randomly sampled minibatch B of size M,  we randomly generate a pair of augmentations for each data instance in B, yielding an augmented batch B' with size 2M
+respectively. Our data consists of both the original and the augmented data. Specifically, for a randomly sampled minibatch B of size M,  we randomly generate a pair of augmentations for each data instance in B, yielding an augmented batch B&apos; with size 2M
            <ul>
             <li>Topics: The dataset comprises four distinct topics 
 </li>

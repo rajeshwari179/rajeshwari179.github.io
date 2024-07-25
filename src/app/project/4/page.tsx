@@ -5,8 +5,7 @@ import hpc2 from '../../../hpc2.jpg';
 import hpc3 from '../../../hpc3.png';
 import hpc4 from '../../../hpc4.png';
 
-import 'katex/dist/katex.min.css';
-import { BlockMath, InlineMath } from 'react-katex';
+
 
 const Project1Page = () => {
   const projects = [
