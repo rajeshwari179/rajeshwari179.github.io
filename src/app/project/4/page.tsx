@@ -29,7 +29,7 @@ const Project1Page = () => {
       imageUrl: hpc1,
       description: (
         <>
-          Optimization of force calculations between particles is achieved through a grid-based method. In this approach, the 2D simulation space is divided into grid cells, with each cell's dimensions equal to the cutoff radius of the particles. This spatial partitioning confines the interaction calculations to particles within the same cell or adjacent cells, thus reducing the number of necessary calculations.
+          Optimization of force calculations between particles is achieved through a grid-based method. In this approach, the 2D simulation space is divided into grid cells, with each cell&apos;s dimensions equal to the cutoff radius of the particles. This spatial partitioning confines the interaction calculations to particles within the same cell or adjacent cells, thus reducing the number of necessary calculations.
           <ul>
             <li>Efficient Force Calculation: The grid-based method reduces computational complexity by focusing only on interactions between nearby particles. 
 </li>
@@ -66,7 +66,7 @@ const Project1Page = () => {
       imageUrl: hpc3,
       description: (
         <>
-         For a problem size of 3,200,000 particles, the CUDA implementation completes in 9.7852 seconds, leveraging GPU parallelism and benefiting from high memory bandwidth. In contrast, the OpenMP implementation takes 100 seconds on 64 threads, hindered by CPU limitations in parallelization and memory band- width. This significant performance difference is attributed to CUDA’s utilization of GPU’s massive parallelism and superior memory bandwidth compared to OpenMP’s reliance on CPU cores. The choice between CUDA and OpenMP depends on factors such as hardware availability and application requirements.
+         For a problem size of 3,200,000 particles, the CUDA implementation completes in 9.7852 seconds, leveraging GPU parallelism and benefiting from high memory bandwidth. In contrast, the OpenMP implementation takes 100 seconds on 64 threads, hindered by CPU limitations in parallelization and memory band- width. This significant performance difference is attributed to CUDA&apos;s utilization of GPU&apos;s massive parallelism and superior memory bandwidth compared to OpenMP’s reliance on CPU cores. The choice between CUDA and OpenMP depends on factors such as hardware availability and application requirements.
          
         </>
       ),

@@ -32,7 +32,7 @@ Figure 1: Failure of K-means.
 
 
         <ul>
-        <li>This project is the implemenetation of the paper "Supporting Clustering with Contrastive Learning"</li>
+        <li>This project is the implemenetation of the paper &quot;Supporting Clustering with Contrastive Learning&quot;</li>
         
         </ul>
         </>
@@ -77,7 +77,7 @@ between the centroid and all samples within that cluster, while inter-cluster di
 to the nearest neighboring cluster. In Figure, we present each distance type along with its mean
 value obtained by averaging across all clusters. Clusters are defined either based on ground truth
 labels (solid line). Figure 3 illustrates that Clustering achieves a smaller intra-cluster distance and
-a larger inter-cluster distance when evaluated on predicted clusters. This highlights Clustering’s
+a larger inter-cluster distance when evaluated on predicted clusters. This highlights Clustering&apos;s
 capability to tighten each self-learned cluster and separate different clusters effectively. However,
 when evaluated on ground truth clusters, along with poor Accuracy and NMI scores, we observe
 the opposite trend. One possible explanation is that data from different ground-truth clusters often
