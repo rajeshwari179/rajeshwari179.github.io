@@ -7,8 +7,6 @@ import kcores from '../../../kcores.png';
 import table2 from '../../../table2.png';
 import table from '../../../table.png';
 import ppercent from '../../../ppercent.png';
-import 'katex/dist/katex.min.css';
-import { BlockMath, InlineMath } from 'react-katex';
 
 
 const Project1Page = () => {
