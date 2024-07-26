@@ -1,8 +1,8 @@
 import React from 'react';
 import Timeline from '../../components/Timeline';
-import gt from "./../gt.jpeg";
-import at from "./../at.png";
-import iit from "./../iit.jpeg";
+import gt from "../../gt.jpeg";
+import at from "../../at.png";
+import iit from "../../iit.jpeg";
 
 
 const events = [

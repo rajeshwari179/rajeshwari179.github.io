@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./Page.module.css"; // Import the CSS module
-import dummy from "./../dummy.jpeg"; // Import your image
-import githubIcon from "./../git.webp"; // Import your GitHub icon
+import dummy from "../../dummy.jpeg"; // Import your image
+import githubIcon from "../../git.webp"; // Import your GitHub icon
 import linkedinIcon from "./../linkedin.png"; // Import your LinkedIn icon
-import cvIcon from "./../cv.png"; // Import your CV icon
-import gt from "./../gt.png"; // Import your GT icon
-import gmail from "./../gmail.png"; // Import your Gmail icon
-import iit from "./../iit.png"; // Import your IIT icon
+import cvIcon from "../../cv.png"; // Import your CV icon
+import gt from "../../gt.png"; // Import your GT icon
+import gmail from "../../gmail.png"; // Import your Gmail icon
+import iit from "../../iit.png"; // Import your IIT icon
 const Page = () => {
   const skills = [
     "Python", "C/C++", "HTML", "CSS", "JavaScript", "React", "Node.js", 
