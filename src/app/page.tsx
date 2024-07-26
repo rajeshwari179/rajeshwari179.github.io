@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./Page.module.css"; // Import the CSS module
-import dummy from "/src/dummy.jpeg"; // Import your image
-import githubIcon from "/src/git.webp"; // Import your GitHub icon
-import linkedinIcon from "/src/linkedin.png"; // Import your LinkedIn icon
-import cvIcon from "/src/cv.png"; // Import your CV icon
-import gt from "/src/gt.png"; // Import your GT icon
-import gmail from "/src/gmail.png"; // Import your Gmail icon
-import iit from "/src/iit.png"; // Import your IIT icon
+import dummy from "./src/dummy.jpeg"; // Import your image
+import githubIcon from "./src/git.webp"; // Import your GitHub icon
+import linkedinIcon from "./src/linkedin.png"; // Import your LinkedIn icon
+import cvIcon from "./src/cv.png"; // Import your CV icon
+import gt from "./src/gt.png"; // Import your GT icon
+import gmail from "./src/gmail.png"; // Import your Gmail icon
+import iit from "./src/iit.png"; // Import your IIT icon
 const Page = () => {
   const skills = [
     "Python", "C/C++", "HTML", "CSS", "JavaScript", "React", "Node.js", 
@@ -37,7 +37,7 @@ const Page = () => {
           </div>
         </div>
         <div className={styles.right}>
-          <h2>Hola! I am Rajeshwari Devaramani, currently a Master&apos;s student at the School of Computational Science and Engineering at Georgia Tech. My passion lies at the intersection of mathematics, statistical modeling, and computer science. The ability to automate tasks through the development of efficient computational algorithms is something I find incredibly fulfilling. I am particularly fascinated by the potential of deep learning and machine learning, especially when accelerated by GPUs. At present, I am engaged in research on local connectivity in neural networks and retinotopic mapping in the human brain, working on topographic deep artificial neural networks. I have a strong interest in computer vision, with a specific focus on 3D reconstruction and image processing utilizing advanced deep learning techniques. I enjoy writing efficient CUDA kernels to maximize the performance of computational tasks on GPUs.</h2>
+          <h2>Hello! I am Rajeshwari Devaramani, currently a Master&apos;s student at the School of Computational Science and Engineering at Georgia Tech. My passion lies at the intersection of mathematics, statistical modeling, and computer science. The ability to automate tasks through the development of efficient computational algorithms is something I find incredibly fulfilling. I am particularly fascinated by the potential of deep learning and machine learning, especially when accelerated by GPUs. At present, I am engaged in research on local connectivity in neural networks and retinotopic mapping in the human brain, working on topographic deep artificial neural networks. I have a strong interest in computer vision, with a specific focus on 3D reconstruction and image processing utilizing advanced deep learning techniques. I enjoy writing efficient CUDA kernels to maximize the performance of computational tasks on GPUs.</h2>
         </div>
       </div>
       <div className={styles.educationSection}>

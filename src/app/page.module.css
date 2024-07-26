@@ -39,7 +39,11 @@
   border-radius: 50%;
   max-width: 300px;
   max-height: 320px;
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* or cover depending on your preference */
 }
+
 
 .right {
   flex-grow: 50;
@@ -176,6 +180,7 @@
     margin: 0;
     line-height: 1.4;
   }
+  
 }
 
 .skillsSection h2 {
@@ -266,7 +271,7 @@
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -288,9 +293,14 @@
   }
 
   .left img {
-    max-width: 50vw;
-    max-height: 20vh;
+    border-radius: 0%;
+    max-width: 300px;
+    max-height: 320px;
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* or cover depending on your preference */
   }
+  
 
   .right {
     flex-grow: 1;

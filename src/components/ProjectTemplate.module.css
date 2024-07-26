@@ -1,3 +1,4 @@
+/* Container and Description Styling */
 .container {
   display: flex;
   align-items: flex-start;
@@ -15,110 +16,88 @@
 
 .image {
   margin-bottom: 10px;
-  /* height: 200px; */
 }
-.projectDescription {
-  font-family: Arial, sans-serif; /* Example: Change to your desired font */
-  font-size: 19px; /* Example: Adjust font size if needed */
-  /* Add any other styling properties here */
-}
-.descriptionContainer {
 
-  padding: 70px; /* Padding around the content */
-  border-radius: 5px; /* Optional: Rounded corners */
+.projectDescription {
+  font-family: Arial, sans-serif;
+  font-size: 19px;
 }
+
+.descriptionContainer {
+  padding: 70px;
+  border-radius: 5px;
+}
+
 .box {
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
- 
   margin-bottom: 20px;
 }
 
-/* ProjectTemplate.module.css */
-
-/* ProjectTemplate.module.css */
-
+/* Image Section Styling */
 .imageSection {
   border: 1px solid #ccc;
   border-image: linear-gradient(320deg, #8a6aff, #c97474) 1;
-  flex: 0.2; /* Allow the image section to grow and take remaining horizontal space */
+  flex: 0.3;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   margin-right: 3vw;
-  
-   /* Adjust margin-right as needed */
 }
 
 .imageContainer {
   position: relative;
-  width: 27vw; 
-  height: 35vh; 
-  margin-bottom: 1vh; /* Optional: Add margin to separate image from description */
-  padding: 1vh; /* Adjust padding around the image */
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%; /* Adjust the aspect ratio (4:3 in this case) */
+  margin-bottom: 1vh;
 }
 
 .imageDescription {
-  font-size: 14px; /* Optional: Adjust font size for image description */
-}
-.customImage {
-  position: relative; /* Required for next/image with layout="fill" */
-  width: 100%; 
-  height: 100%; 
-  /* aspect-ratio: 1; */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  overflow: hidden; 
+  font-size: 14px;
 }
 
-@media (max-width: 480px) {
-  .box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   
-    margin-bottom: 20px;
-  }
-  .imageSection {
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    border-image: linear-gradient(320deg, #8a6aff, #c97474) 1;
-    flex: 1; /* Allow the image section to grow and take remaining horizontal space */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-    
-    
-     /* Adjust margin-right as needed */
-  }
-  .descriptionContainer {
-
-    padding: 0px; /* Padding around the content */
-    border-radius: 5px; /* Optional: Rounded corners */
-  }
 .customImage {
-  position: absolute; /* Required for next/image with layout="fill" */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  /* object-fit: cover; Makes the image cover the entire container */
-  object-position: center; /* Centers the image within the container */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  overflow: hidden; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
-  
+
+.customImage img {
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Responsive Styling */
+@media (max-width: 480px) {
+  .box {
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .imageSection {
+    flex: 1;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .descriptionContainer {
+    padding: 0px;
+  }
+
+  .imageContainer {
+    padding-bottom: 56.25%; /* Adjust the aspect ratio (16:9 in this case) */
+  }
 }
