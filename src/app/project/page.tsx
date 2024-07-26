@@ -2,12 +2,12 @@ import React from 'react';
 import styles from "../../components/Project.module.css"; 
 import { useRouter } from 'next/router';
 import Projects from "../../components/Project.jsx"; // Import your CSS module
-import sift from "./src/sift.png";
-import graph from "./src/graph.jpg";
-import svd from "./src/svd.png";
-import modsim from "./src/modsim.png";
-import cda from "./src/cda.png";
-import particle from "./src/particle.jpeg";
+import sift from "./../sift.png";
+import graph from "./../graph.jpg";
+import svd from "./../svd.png";
+import modsim from "./../modsim.png";
+import cda from "./../cda.png";
+import particle from "./../particle.jpeg";
 
 const Project = () => {
     const projects = [

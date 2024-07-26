@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import styles from './page.module.css';
-import drone from './src/drone.jpeg';
-import nemo from './src/nemo.jpg';
-import mini from './src/mini.png';
-import nintendo from './src/nintendo.jpeg';
-import UCL from './src/UCL.jpg';
-import snitch from './src/snitch.png';
-import wheel from './src/wheel.png';
-import plane1 from './src/plane1.png';
+import drone from './../drone.jpeg';
+import nemo from './../nemo.jpg';
+import mini from './../mini.png';
+import nintendo from './../nintendo.jpeg';
+import UCL from './../UCL.jpg';
+import snitch from './../snitch.png';
+import wheel from './../wheel.png';
+import plane1 from './../plane1.png';
 
 const ModelsPage = () => {
   const images = [
