@@ -32,7 +32,7 @@
 }
 
 .imageContainer {
-  position: relative;
+  position: relative;   
   width: 30vw; /* Adjust width as needed */
   max-width: 90vw;
   border: 2px solid #ccc; /* Adjust border thickness as needed */

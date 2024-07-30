@@ -1,8 +1,8 @@
 import React from 'react';
 import Timeline from '../../components/Timeline';
-import gt from "../../gt.jpeg";
-import at from "../../at.png";
-import iit from "../../iit.jpeg";
+import gt from "/src/gt.jpeg";
+import at from "/src/at.png";
+import iisc from "../../iisc.jpeg";
 
 
 const events = [
@@ -41,7 +41,7 @@ const events = [
     title: 'Indian Institute of Science',
     date: '2020 - 2021',
     description: 'Worked in the lab of Mechanics and computations on designing meta-structures with quasi-zero dynamic stiffness for vibration isolation. Performed mathematical simulations on single-cell meta-structure',
-    image: gt
+    image: iisc
   },
  
   // Add more events as needed
